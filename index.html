@@ -14,8 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
     <title>Student Corner</title>
+    <link rel="icon" type="image/ico" href="static/images/logo/logo.jpg" />
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Custom styles for this template -->
@@ -47,42 +47,11 @@
 
 <body>
     <header>
-        <!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="http://iiitg.ac.in/">IIITG</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="iiitg_acad.html">Academics <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="jee.html">JEE <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-                  </div>
-      </nav> -->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <!-- <a class="navbar-brand" href="index.html">STUDENT CORNER</a> -->
-            <!-- Brand -->
             <a class="navbar-brand page-scroll sticky-logo" href="index.html">
-                  <h1><span style="color:blue" >Student</span>Corner</h1>
-                  <!-- Uncomment below if you prefer to use an image logo -->
-                  <!-- <img src="{% static 'AppCareerHigh/img/logo.png" alt="" title=""> -->
+                  <h1>
+                    <span style="color:orange" >Student</span><span style="color:beige" >Corner</span>
+                  </h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -90,24 +59,25 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="http://iiitg.ac.in/" target="_blank">IIIT Guwahati</a>
+                        <a class="nav-link" href="http://iiitg.ac.in/" target="_blank"><span style="color:beige" >IIIT Guwahati</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html"><span style="color:beige" >Home</span><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about.html"><span style="color:beige" >About</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="iiitg_acad.html">Academics</a>
+                        <a class="nav-link" href="iiitg_acad.html"><span style="color:beige" >Academics</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="jee.html">JEE Contents</a>
+                        <a class="nav-link" href="jee.html"><span style="color:beige" >JEE Contents</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
+    <br>
     <main role="main">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -119,7 +89,7 @@
                     <img class="first-slide" src="iiitg_topview.jpg" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption text-center">
-                            <h1>Student Resources | IIITG</h1>
+                            <h1>Study Resources | IIITG</h1>
                             <p>Collection of important study materials</p>
                             <p><a class="btn btn-lg btn-primary" href="iiitg_acad.html" role="button">Click Here </a></p>
                         </div>
@@ -129,9 +99,21 @@
                     <img class="second-slide" src="jee.png" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption text-center">
-                            <h1>Study Resources for JEE Aspirants</h1>
-                            <p>Collection of diverse study materials>
-                                <p><a class="btn btn-lg btn-primary" href="jee.html" role="button">Click Here</a></p>
+                            <!-- layer 1 -->
+                            <!-- <div class="layer-1-1 hidden-xs wow " data-wow-duration="2s" data-wow-delay=".2s"> -->
+                            <!-- <h2 class="title1">Build a better career</h2> -->
+                            <!-- </div> -->
+                            <!-- layer 2
+                            <div class="layer-1-2 wow " data-wow-duration="2s" data-wow-delay=".1s">
+                                <h1 class="title2">Get that dream job you've been aiming for</h1>
+                            </div>
+                            layer 3 -->
+                            <!-- <div class="layer-1-3 hidden-xs wow " data-wow-duration="2s" data-wow-delay=".2s"> -->
+                            <!-- <a class="ready-btn page-scroll" href="#about">Learn More</a> -->
+                            <!-- </div> -->
+                            <h1>Study Resources | JEE Aspirants</h1>
+                            <p>Collection of diverse study materials</p>
+                            <p><a class="btn btn-lg btn-primary" href="jee.html" role="button">Click Here</a></p>
                         </div>
                     </div>
                 </div>
@@ -152,7 +134,7 @@
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="IMG_20180224_230949.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="static/images/dheeraj_kr.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>About Me</h2>
                     <p>Hi, I am Dheeraj Kumar, CSE , 1st Year Btech UG student of IIIT Guwahati during session 2018-19. I am very much fascinated by innovative ideas and smart developments and so want to build something unique and big of my own. </p>
                     <!--             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
